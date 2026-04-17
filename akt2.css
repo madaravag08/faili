@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(222, 194, 250);
+}
+
+#back {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ccffcc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}

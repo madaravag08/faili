@@ -2,7 +2,7 @@ body {
     background-color: #ccffcc;
 }
 
-.nosaukums {
+#nosaukums {
     margin: 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
@@ -26,19 +26,22 @@ body {
     text-align: center;
 }
 
-.spele{
-    font-family: Arial;
-     text-align: center;
-}
 
+
+
+.spele {
+    font-family: Arial;
+    text-align: center;
+}
 #gameArea {
-     width: 600px;
+    width: 600px;
     height: 400px;
     border: 6px solid rgb(44, 80, 39);
     margin: 20px auto;
     position: relative;
     background-color: #f8fdaf;
 }
+        
 #target {
     width: 45px;
     height: 45px;
@@ -47,9 +50,35 @@ body {
     display: none;
     cursor: pointer;
 }
-
 #info {
     font-size: 20px;
 }
 
- 
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(44, 80, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: gray;
+            cursor: not-allowed;
+}
+
+
+
+#next {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(222, 194, 250);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
