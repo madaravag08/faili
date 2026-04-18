@@ -2,7 +2,50 @@ body {
     background-color: rgb(222, 194, 250);
 }
 
+#nosaukums {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+#datums{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #276852;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#virsraksts {
+    font-family: Arial;
+    text-align: center;
+    font-size: 4rem;
+    
+}
+
+.text{
+    /*Paskats*/
+    margin: 5px;
+    font-family: serif;
+    font-size: 25px;
+    color: black;
+
+    /*Izvietoums
+    width: 90%;
+    margin: auto;
+    text-align: left;*/
+}
+
+
 #back {
+    /* izskats */
     padding: 10px 20px;
     font-size: 18px;
     background-color: #ccffcc;
@@ -11,4 +54,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
+
+    /* izvietojums */
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
 }

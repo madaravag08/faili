@@ -10,6 +10,20 @@ body {
     color: #4ECCA3;
 }
 
+#datums{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #276852;
+}
+
+#vecums{
+    margin: 5px;
+    font-family: serif;
+    font-size: 25px;
+    color: black;
+}
+
 .virsraksts{
     margin: 15px;
     font-family: 'Lobster', cursive;
@@ -32,6 +46,7 @@ body {
 .spele {
     font-family: Arial;
     text-align: center;
+    
 }
 #gameArea {
     width: 600px;
@@ -73,6 +88,7 @@ button:disabled {
 
 
 #next {
+    /* izskats */
     padding: 10px 20px;
     font-size: 18px;
     background-color: rgb(222, 194, 250);
@@ -81,4 +97,24 @@ button:disabled {
     border-radius: 5px;
     cursor: pointer;
     margin: 10px;
+ 
+    /* izvietojums */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
+
+.text{
+    /*Paskats*/
+    margin: 5px;
+    font-family: serif;
+    font-size: 25px;
+    color: black;
+
+    /*Izvietoums*/
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+
