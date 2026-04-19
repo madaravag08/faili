@@ -41,6 +41,16 @@ body {
     width: 90%;
     margin: auto;
     text-align: left;*/
+    
+    
+}
+
+img {
+    
+    float: right;
+    margin-right: 20px;
+    width: 500px;
+    height: auto;
 }
 
 

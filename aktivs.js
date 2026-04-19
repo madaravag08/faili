@@ -7,7 +7,7 @@ function getFormattedDate() {
     const year = today.getFullYear();
     return `${day}/${month}/${year}`;
     }
-    document.getElementById('datums').textContent = getFormattedDate()
+document.getElementById('datums').textContent = getFormattedDate()
 
 
 
