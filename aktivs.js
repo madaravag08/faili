@@ -88,18 +88,43 @@ target.addEventListener("click", function() {
     scoreDisplay.textContent = score;
     showTarget();
 });
-        
+     
+//MASĪVS
+
+const bales=["(10-8)","(7-5)","(4-2)","(1-0)"];
+
+let vertejums="";
+
+if (score<=10 ){
+   vertejums=bales[3];
+}
+else if(score<62){
+    vertejums=bales[2];
+}
+
+else if(score<113){
+    vertejums=bales[1];
+}
+
+else{
+    vertejums=bales[0];
+}
+
 // Beigt spēli
-function endGame() {
+function endGame(vertejums) {
     active = false;
     clearInterval(timer);
     target.style.display = "none";
-    alert("Spēle beigusies! Punkti: " + score);
+    alert("Spēle beigusies! Punkti: " + score + vertejums );
             
     let startBtn = document.querySelectorAll(".palaist")[0];
     startBtn.disabled = false;
     startBtn.innerHTML = "Sākt spēli";
 }
-        
+   
 // Sākotnējais stāvoklis
 target.style.display = "none";
+
+
+
+console.log(vertejums)
