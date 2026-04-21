@@ -15,7 +15,14 @@
 </div>
 <br>
 <!--VECUMS-->
-<p id="vecums">Ievadi savu dzimšanas datus un uzzināsi savu konkrēto vecumu līdz pat dienām:</p>
+
+<div class="text">
+    <label for="vecums">Ievadi savu dzimšanas datumu un uzzini cik dienas ir pagājušas (gads-mēnesis-diena):</label>
+    <input type="date" id="vecums" name="vecums">
+
+<button id="poga">Aprēķināt vecumu</button>
+<p id="rezultats"></p>
+</div>
 
 <!--APRAKSTS-->
 <h1 class="spele">Apraksts</h1>
@@ -36,7 +43,7 @@
     <div class="text">
         <p>Spēles noteikumi ir ļoti vienkārši - uzspiežot uz pogu "Sākt spēli", spēles laukumā paradīsies oranžais kvadrātiņš (Tas ir galvenais spēles elements). Pēc pogas uzspiešanas spēlētājam ir precīzi 1,5 sekundes, lai uzklikšķinātu uz kvadrātiņu. Spēles uzdevums ir pēc iespējas ātrāk uzspiest uz šo klucīti ievērojot visus laika limitus un iegūt pēc iespējas lielāku punktu skaitu (1punkts = 1 klikšķis uz klucīša).</p>
         <p>Spēle beigsies tikai tajā situācijā, ja spēlētājs neiekļausies 1,5 sekundes laikā.</p>
-        <p>Spēles beigās spēlētājs varēs uzzināt savu reakcijas vecuma indikatoru(1-10 ballēs) pēc iegūto punktu skaita. To varēs apskatīt tabulā zem spēles.</p>
+        <p>Spēles beigās spēlētājs varēs uzzināt savu reakcijas vecuma indikatoru (1-10 ballēs) pēc iegūto punktu skaita. To varēs apskatīt tabulā zem spēles.</p>
     </div>
 <br>
 <div class="spele">
@@ -49,7 +56,7 @@
     </div>
 
     <div id="info">
-        Laiks: <span id="time">1,5</span> | 
+        Laiks: <span id="time">1,5</span>  
         Punkti: <span id="score">0</span>
     </div>
 
@@ -57,7 +64,59 @@
 </div>
 <br>
 
+<div class="container">
+    <h1 class="spele" >Vērtējumu tabula</h1>
 
+    <table style="width:50%">
+        <tr>
+            <th>Balle</th>
+            <td>Punktu diapazons</td>
+        </tr>
+        <tr>
+            <th>10</th>
+            <td>136</td>
+        </tr>
+        <tr>
+            <th>9</th>
+            <td>[121-135]</td>
+        </tr>
+        <tr>
+            <th>8</th>
+            <td>[106-120]</td>
+        </tr>
+        <tr>
+            <th>7</th>
+            <td>[91-105]</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>[71-90]</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>[61-75]</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>[46-60]</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>[31-45]</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>[16-30]</td>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>[0-15]</td>
+        </tr>
+
+    </table>
+</div>
+
+<br>
 
 <!--PAāreja uz otro hrml-->
     

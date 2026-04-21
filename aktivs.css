@@ -17,13 +17,6 @@ body {
     color: #276852;
 }
 
-#vecums{
-    margin: 5px;
-    font-family: serif;
-    font-size: 25px;
-    color: black;
-}
-
 .virsraksts{
     margin: 15px;
     font-family: 'Lobster', cursive;
@@ -115,4 +108,20 @@ button:disabled {
     width: 90%;
     margin: auto;
     text-align: left;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #333;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
